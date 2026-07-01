@@ -1,0 +1,527 @@
+#VRML_SIM R2025a utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/floors/protos/RectangleArena.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/appearances/protos/BrushedAluminium.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3dx.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/adept/pioneer3/protos/Pioneer3Gripper.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/ExitSign.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/ExitPanel.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/samples/contests/rockin/protos/RoCKInShelf.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/CardboardBox.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/containers/protos/PlasticCrate.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Hammer.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/telephone/protos/Telephone.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Bolt.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/drinks/protos/Can.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/robots/softbank/nao/protos/VisualArmature.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Screwdriver.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/factory/tools/protos/Wrench.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2025a/projects/objects/traffic/protos/TrafficCone.proto"
+
+WorldInfo {
+  basicTimeStep 64
+}
+Viewpoint {
+  orientation -0.4835698347704296 -0.251204378418231 0.8384846898802683 3.963180106999302
+  position 4.682311979753434 6.2903399301953185 10.20949241066938
+}
+RectangleArena {
+  floorSize 6 6
+  floorTileSize 6 6
+  floorAppearance PBRAppearance {
+    baseColor 0.5 0.5 0.5
+    baseColorMap ImageTexture {
+      url [
+        "../../../Downloads/photo_1447-11-23 00.30.32.jpeg"
+      ]
+    }
+    roughness 1
+    metalness 0
+  }
+  wallThickness 0.04
+  wallHeight 0.5
+  wallAppearance BrushedAluminium {
+    colorOverride 0 0 0
+  }
+}
+Hammer {
+  hidden linearVelocity_0 -3.0345496748836022e-06 1.4439843474599346e-06 1.0963883439889643e-05
+  hidden angularVelocity_0 -0.00011580932025999431 -0.00023615168916799354 4.1154289740897924e-07
+  translation 1.9557636999992565 2.6515110330506984 0.032075850517521966
+  rotation -0.0036469730195695196 -0.010163528388496065 0.9999416994397679 1.143764704996847
+}
+Hammer {
+  hidden linearVelocity_0 -1.2589003624398318e-07 -8.73284616993077e-08 3.066679281447349e-06
+  hidden angularVelocity_0 6.696763609912164e-06 -9.654270851319096e-06 -1.044980909932658e-09
+  translation 0.6699000577202091 2.757233537255739 0.014553308121494269
+  rotation -0.0013052932873510877 -0.006456912402981592 0.9999783020104257 1.83264556325035
+  name "hammer(1)"
+}
+Can {
+  hidden linearVelocity_0 8.896115647813188e-17 8.134834432159711e-17 6.242949075385691e-07
+  hidden angularVelocity_0 -8.479084729523225e-16 1.4838398276665643e-15 -2.710865714409545e-16
+  translation 0.57 2.7 0.360962500214652
+  rotation -0.47432649376625297 -0.47432649376625285 -0.741639234818942 7.150420514947412e-16
+}
+Bolt {
+  hidden linearVelocity_0 2.784228968630824e-05 4.485692465478263e-07 5.384448749825685e-06
+  hidden angularVelocity_0 -3.869527700910656e-05 0.0024067821169206577 -1.8037294080794948e-06
+  translation 0.46957217773245324 2.8461486783311734 0.010400278306703795
+  rotation 0.08611244805927168 0.11664526487065628 -0.9894334381212785 1.5041174736678584
+  name "bolt(4)"
+}
+CardboardBox {
+  translation 2.79 -2.55 0.06
+  name "cardboard box(6)"
+  size 0.13 0.13 0.13
+}
+CardboardBox {
+  translation 2.79 -2.7 0.18
+  name "cardboard box(8)"
+  size 0.13 0.13 0.13
+}
+CardboardBox {
+  translation 2.81 -2.68 0.06
+  name "cardboard box(7)"
+  size 0.13 0.13 0.13
+}
+PlasticCrate {
+  translation 2.7 -2.62 0
+  size 0.4 0.4 0.3
+  color 0.0555734 0.0555734 0.0555734
+}
+RoCKInShelf {
+  translation 2.04 2.76 0
+  rotation 0 0 1 -1.5707953071795862
+}
+CardboardBox {
+  translation 1.9 2.77 0.62
+  size 0.2 0.2 0.2
+}
+CardboardBox {
+  translation 1.9 2.77 0.42
+  name "cardboard box(2)"
+  size 0.13 0.13 0.13
+}
+CardboardBox {
+  translation 2.17 2.77 0.62
+  name "cardboard box(1)"
+  size 0.2 0.2 0.2
+}
+CardboardBox {
+  translation 2.65 -2.55 0.06
+  name "cardboard box(3)"
+  size 0.13 0.13 0.13
+}
+CardboardBox {
+  translation 2.65 -2.71 0.06
+  name "cardboard box(4)"
+  size 0.13 0.13 0.13
+}
+CardboardBox {
+  translation 2.66 -2.57 0.18
+  name "cardboard box(5)"
+  size 0.13 0.13 0.13
+}
+ExitSign {
+  translation -2.77 0 0
+  name "Red panel"
+  height 0.5
+  radius 0.04
+  signBoards [
+    ExitPanel {
+      translation 0 0 -1.2
+      name "Red panel"
+      signImage [
+        "../../../Downloads/red zone.png"
+      ]
+    }
+  ]
+}
+ExitSign {
+  translation -2.77 2 0
+  name "Blue panel"
+  height 0.5
+  radius 0.04
+  signBoards [
+    ExitPanel {
+      translation 0 0 -1.2
+      name "Blue panel"
+      signImage [
+        "../../../Downloads/blue zone.png"
+      ]
+    }
+  ]
+}
+ExitSign {
+  translation -2.77 -2.02 0
+  name "Green panel"
+  height 0.5
+  radius 0.04
+  signBoards [
+    ExitPanel {
+      translation 0 0 -1.2
+      signImage [
+        "../../../Downloads/green zone.png"
+      ]
+    }
+  ]
+}
+Solid {
+  translation 1.92764 -0.54106 0.15199476803854547
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+        subdivision 24
+      }
+    }
+  ]
+  name "Blue cylinder (1)"
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+Solid {
+  translation 2.04 1.04 0.1519947680385461
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+      }
+    }
+  ]
+  name "green cylinder (1)"
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+Solid {
+  translation 1.83853 1.58886 0.151995
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 0 1
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+        subdivision 24
+      }
+    }
+  ]
+  name "Blue cylinder "
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+TexturedBackground {
+  texture "noon_park_empty"
+  skyColor [
+    0.64 0.64 0.64
+  ]
+}
+TexturedBackgroundLight {
+  texture "noon_park_empty"
+  castShadows FALSE
+}
+Solid {
+  translation 2.07 0.05999999999999995 0.1519947680385458
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 0 1 0
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+      }
+    }
+  ]
+  name "green cylinder "
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+Solid {
+  translation 2.15904 0.54419 0.151995
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+        subdivision 24
+      }
+    }
+  ]
+  name "Red cylinder"
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+Solid {
+  translation 1.61683 -0.94143 0.15199476803854547
+  children [
+    Shape {
+      appearance PBRAppearance {
+        baseColor 1 0 0
+        roughness 1
+        metalness 0
+      }
+      geometry Cylinder {
+        height 0.3
+        radius 0.05
+        subdivision 24
+      }
+    }
+  ]
+  name "Red cylinder(1)"
+  boundingObject Cylinder {
+    height 0.3
+    radius 0.05
+  }
+  physics Physics {
+    density 300
+    mass 0.02
+  }
+}
+RectangleArena {
+  translation -2 0 0.002
+  name "red zone"
+  floorAppearance PBRAppearance {
+    baseColor 1 0 0
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.0001
+  wallAppearance NULL
+}
+RectangleArena {
+  translation -2 -2 0.002
+  name "green zone"
+  floorAppearance PBRAppearance {
+    baseColor 0 1 0
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.0001
+  wallAppearance NULL
+}
+RectangleArena {
+  translation -2 2 0.002
+  name "blue zone"
+  floorAppearance PBRAppearance {
+    baseColor 0 0 1
+    roughness 1
+    metalness 0
+  }
+  wallHeight 0.0001
+  wallAppearance NULL
+}
+Pioneer3dx {
+  hidden position_0_0 1.6379737427016128
+  hidden position_0_1 2.3545414427631064
+  hidden position_0_2 -2.3544899856777244
+  hidden linearVelocity_0 -0.013383042911794851 -0.013544974020334633 -2.1341164064146686e-05
+  hidden angularVelocity_0 -0.00030283362705629216 -0.0003679986006040431 -0.45982106874350936
+  hidden rotation_1 0.9988728560913689 0.033563471712739386 0.033563532747010245 1.5719240490385864
+  hidden position_1_0 -6.274784891293231
+  hidden rotation_2 -1 0 0 6.274784891293242
+  hidden rotation_4 -0.35678431993502796 0.3567843920666463 -0.863371210213853 1.7171812126487396
+  hidden rotation_9 0.6787273949642143 -0.678727451668285 0.2804606383736715 3.6884642135473547
+  hidden position_39_0 1.2955636427444388e-05
+  hidden translation_40 0.0425 0 -1.2955636427444388e-05
+  hidden position_40_0 0.0650575208441617
+  hidden position_40_1 0.0650582374169184
+  hidden translation_41 -0.0870575208441617 0 -0.02
+  hidden translation_42 0.0870582374169184 0 -0.02
+  translation 0.9515701218456319 1.0681718634498036 0.09700956426012036
+  rotation 0.015684154239490995 -0.006618586438427232 0.9998550903102654 2.3479485260201742
+  controller "my_controller"
+  extensionSlot [
+    Compass {
+    }
+    GPS {
+      translation 0 0 0.18
+    }
+    DistanceSensor {
+      translation 0.17 -0.16 0.14
+      rotation 0 0 1 -0.65
+      name "front right ds"
+    }
+    DistanceSensor {
+      translation 0.17 0.16 0.14
+      rotation 0 0 1 0.65
+      name "front left ds"
+    }
+    DistanceSensor {
+      translation 0.22 0 0.14
+      name "front ds"
+    }
+    TouchSensor {
+      translation 0.33 0 0.035
+      name "gripper touch sensor"
+      boundingObject Box {
+        size 0.025 0.1 0.025
+      }
+    }
+    TouchSensor {
+      translation 0.21 0 0.03
+      name "center touch sensor"
+      boundingObject Box {
+        size 0.03 0.055 0.03
+      }
+    }
+    TouchSensor {
+      translation 0.26 -0.071 0.01
+      name "left gripper touch"
+      boundingObject Box {
+        size 0.1 0.035 0.05
+      }
+    }
+    TouchSensor {
+      translation 0.26 0.071 0.01
+      name "right gripper touch"
+      boundingObject Box {
+        size 0.1 0.035 0.05
+      }
+    }
+    RangeFinder {
+      translation 0.19 0 0.15
+      name "depth camera"
+    }
+    Camera {
+      translation 0.19 0 0.15
+      rotation 1 0 0 0
+      name "color camera"
+      fieldOfView 1.3
+      width 100
+      height 60
+      recognition Recognition {
+      }
+    }
+    DEF GRIPPER_BASE Pioneer3Gripper {
+      translation 0.135 0 0.029
+      name "GRIPPER_BASE"
+    }
+  ]
+}
+Table {
+  translation 0.759999 2.8 0
+  rotation 0 0 1 -1.5707953071795862
+  size 0.4 0.8 0.3
+}
+Telephone {
+  translation 0.97 2.89 0.28
+  rotation 0 0 1 -1.5707953071795862
+}
+Bolt {
+  hidden linearVelocity_0 -0.00013900359424932882 3.6802756181210975e-05 8.148516986822777e-07
+  hidden angularVelocity_0 -0.0031813104117859948 -0.012015896807351253 2.6292761456791438e-05
+  translation 0.4690057432050205 2.848609272291478 0.3083514519684567
+  rotation 0.1350436904253783 0.024892681888364923 -0.9905269082991633 1.850062199487648
+}
+Bolt {
+  hidden linearVelocity_0 2.269775584349403e-06 -5.439115784423396e-07 4.5952148703293734e-06
+  hidden angularVelocity_0 4.706861239355374e-05 0.0001962199812866825 -1.3070065029917903e-07
+  translation 0.4756192958332605 2.7686291742455387 0.010400325462423154
+  rotation 0.0958190607774961 0.12787095701992135 -0.987151318665243 1.3276459457205878
+  name "bolt(2)"
+}
+Bolt {
+  hidden linearVelocity_0 8.907712405299888e-12 -1.0995164003895932e-06 4.595101165173032e-06
+  hidden angularVelocity_0 9.509856754966955e-05 7.700636181327419e-10 -4.960368324955459e-13
+  translation 0.4900000017463611 2.807904044247722 0.010400325443161502
+  rotation 0.09796675837547249 0.09796686678152906 -0.9903560002677885 1.5804859830946514
+  name "bolt(3)"
+}
+Bolt {
+  hidden linearVelocity_0 -4.4114064478463824e-06 1.2060975096998476e-06 4.595595540296707e-06
+  hidden angularVelocity_0 -0.00010421272548778493 -0.0003813618286000469 2.8181887947048506e-07
+  translation 0.5291436008120857 2.8480757088969733 0.010400325528359159
+  rotation 0.10007104332851852 0.05454417492533796 -0.9934841313623765 2.086947293228293
+  name "bolt(1)"
+}
+VisualArmature {
+  translation 0.9 2.71 0.3
+  rotation 0.7071072811865696 -3.3905013482585576e-09 0.7071062811861719 3.14159
+  dimension 0.01 0.2 0.24
+  textureUrl [
+    "../../../Downloads/smart color sorting robot.png"
+  ]
+}
+Screwdriver {
+  hidden linearVelocity_0 5.028964774646859e-05 0.00026143090120419314 -5.81460698938364e-05
+  hidden angularVelocity_0 -0.012114589906474686 0.003921199401952105 -0.00360592450146812
+  translation 0.46923828614227053 2.7707285674536397 0.28077164934026166
+  rotation 0.5371098325491461 0.7686864276486404 -0.3473243494599821 1.8801794044626212
+}
+Wrench {
+  hidden linearVelocity_0 -1.689407260468725e-09 4.990351265693473e-09 5.007850132680387e-07
+  hidden angularVelocity_0 -4.688279321344315e-06 -1.5758624037902365e-06 9.722975689795098e-11
+  translation 2.1427605056964976 2.6709099707456043 -0.0006695011973414174
+  rotation -0.0001724082819012936 -0.0008765173422007165 0.9999996009962869 0.2617991134925919
+}
+TrafficCone {
+  translation 0.33 -2.8 0
+  scale 0.4
+}
+TrafficCone {
+  translation 0.58 -2.85 0
+  scale 0.5
+  name "traffic cone(1)"
+}
+TrafficCone {
+  translation 0.51 -2.61 0
+  scale 0.3
+  name "traffic cone(2)"
+}
